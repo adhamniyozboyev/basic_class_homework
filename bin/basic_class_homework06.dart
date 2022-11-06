@@ -4,4 +4,11 @@
 Create a "Person" class that has a name("name") and a age("age")
 */
 
-void main() {}
+class Person{
+  String name='Adham';
+  int age=16;
+}
+void main() {
+  print(Person());
+  
+}
