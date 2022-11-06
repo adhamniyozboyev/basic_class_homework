@@ -5,14 +5,16 @@ Create a "Person" class.
 Create an attribute "name" in the "Person" class.
 create an object named "person" whose name is "Ali"
 */
-class Person {
-  String name = 'Ali';
-  
-
-  Person(String name){}
 
 
-}
-void mian(){
-  Person person=Person('Ali');
+
+class Person{
+  String name = 'ali';
+
+  Person(String name){
+
+  }}
+void main() {
+  Person person = Person('ali');
+  print(person.name);
 }
