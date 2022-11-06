@@ -7,9 +7,15 @@ create an object named "person" whose name is "Ali"
 */
 class Person{
   String name='Adham';
- String person='Ali';
-  
+
+       Person ({required String person}){
+      this.name=person;
+       }
+       String person(String person){
+            return person;
+       }
 }
 void main() {
+  print(Person(person: 'Ali'));
 
 }
