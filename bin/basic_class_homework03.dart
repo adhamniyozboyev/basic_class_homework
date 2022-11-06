@@ -5,17 +5,15 @@ Create a "Person" class.
 Create an attribute "name" in the "Person" class.
 create an object named "person" whose name is "Ali"
 */
-class Person{
-  String name='Adham';
+class Person {
+  String name = 'Adham';
 
-       Person ({required String person}){
-      this.name=person;
-       }
-       String person(String person){
-            return person;
-       }
+  Person({required String name}) {
+    this.name = name;
+  }
 }
-void main() {
-  print(Person(person: 'Ali'));
 
+void main() {
+  Person person = Person(name: "Ali");
+  print(person.name);
 }
